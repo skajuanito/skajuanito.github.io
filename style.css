@@ -103,5 +103,5 @@ h1:hover{
     justify-content: inherit;
     margin: 0 auto;
     height: inherit;
-    
+    flex-wrap: wrap;
 }

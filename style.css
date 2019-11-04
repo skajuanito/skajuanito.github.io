@@ -43,7 +43,9 @@ li:hover{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transition: 0.5s;
 }
-
+.titulo{
+    display: flex;
+}
 h1 {
     display: flex;
     flex-wrap: wrap;

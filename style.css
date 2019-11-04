@@ -45,6 +45,8 @@ li:hover{
 }
 
 h1 {
+    display: flex;
+    flex-wrap: wrap;
     margin: 100px;
     color: rgba(255, 255, 255, 0.459);
     font-size: 50px;

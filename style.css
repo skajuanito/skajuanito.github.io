@@ -44,8 +44,6 @@ li:hover{
     transition: 0.5s;
 }
 .bienvenido{
-    height: inherit;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;

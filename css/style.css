@@ -1,0 +1,109 @@
+body{
+    background-image: url(images/headphones.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    margin-top: 0;
+}
+.header ul{
+    height: inherit;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.header ul li{
+    list-style: none;
+    height: 50px;
+    transition: 0.5s;
+}
+.navbar{
+    height: inherit;
+}
+.navbar:hover{
+    cursor: pointer;
+}
+
+li:hover{
+    border-bottom: 2px solid white;
+}
+.header a{
+    height: inherit;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: inherit;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}
+.bienvenido{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h1 {
+    margin: 100px;
+    color: black;
+    font-size: 50px;
+    font-family:'ZCOOL XiaoWei', serif;
+    transition: 0.5s;
+}
+h1:hover{
+    border-bottom: 3px solid rgba(1, 25, 78, 0.507);
+    cursor: pointer;
+}
+.form{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-form{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 30px;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.link{
+    height: inherit;
+}
+.button{
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.btn{
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 20px;
+}
+.btn:hover{
+    background-color: white;
+    color:black;
+}
+.container{
+    width: 1000px;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    margin: 0 auto;
+    height: inherit;
+    flex-wrap: wrap;
+}
